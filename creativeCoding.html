@@ -8,7 +8,8 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="UXportfolio.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -22,18 +23,18 @@
 
   <div class="top-resume">
     <a href="https://arena-attachments.s3.amazonaws.com/9844299/0e41264b01da0121dcbce27cc788938b.pdf?1607585332" target="_blank">
-      <p>resume</p></a>
+      <p class="NavText">resume</p></a>
   </div>
 
   <div id="myHeader">
     <div class="NavBar">
-        <div id="title"><a href="index.html"><p>Sa Youngin &nbsp; 사영인</p></a></div>
+        <div id="title"><a href="index.html"><p class="NavText">Sa Youngin &nbsp; 사영인</p></a></div>
         <div id="menu">
           <div class="dropbtn" onclick="menuFunction()">
-            <div id="menutitle">Creative Coding</div></div>
+            <div id="menutitle"><p class="NavText">Creative Coding</p></div></div>
               <div class="sub-menu" id="myDropdown">
                 <a href="index.html"><p class="menus">UX Portfolio</p></a>
-                <a href="workProcess.html"><p class="menus">Work Process</p></a>
+                <a href="workMethod.html"><p class="menus">Work method</p></a>
                 <a href="creativeCoding.html"><p class="menus">Creative coding</p></a>
                 <a href="about.html"><p class="menus end">About</p></a>              </div>
         </div>
@@ -41,26 +42,34 @@
   </div>
 
   <div class="content">
-    <h3>Hi my name is Young. <br>This website is currently under construction for renewal.<br>
-    will get back by end of this year 2020!<br>
-    Hope everyone stay safe and healthy!!</h3>
 
-    <br><br>
+    <table>
+        <tr>
+          <td class="thumbnail"><img src="sources/creativeCoding/NYtimes.png" width="100%"></td>
+          <td class="thumbnail"><img src="sources/creativeCoding/PVDweather.png" width="100%"></td>
+          </tr>
+          <tr>
+          <td class="caption"><p><span style="font-weight:bold">NY Times API</span></p></td>
+          <td class="caption"><p><span style="font-weight:bold">Weather API visualization</span></p></td>
+        </tr>
 
- <h3>This is page for Creative Coding.</h3>
+        <tr>
+          <td class="thumbnail"><img src="sources/creativeCoding/mynameis.png" width="100%"></td>
+          <td class="thumbnail"><img src="sources/creativeCoding/DonerPrize.png" width="100%"></td>
+          </tr>
+          <tr>
+          <td class="caption" id="end"><p><span style="font-weight:bold">Life grid</span></p></td>
+          <td class="caption" id="end"><p><span style="font-weight:bold">project YEOKMASAL, 2019</span></p></td>
+        </tr>
 
-   <div class="portfolioRow">
-     <div class="portfolioList"></div>
-     <div class="portfolioList"></div>
-     <div class="portfolioList"></div>
-   </div>
-   <div class="portfolioRow">
-     <div class="portfolioList"></div>
-     <div class="portfolioList"></div>
-     <div class="portfolioList"></div>
-   </div>
+    </table>
+
+
+
+
+
      <div class="footer">
-       <p>@ 2020 Youngin Sa</p>
+       <p>@ 2021 Youngin Sa</p>
      </div>
 
   </div>

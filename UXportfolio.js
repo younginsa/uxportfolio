@@ -40,6 +40,25 @@ function myFunction() {
   }
 }
 
+// CURSOR OVERLAY
+  function setBounds(){
+    $('#bg').width($('.introbody').width()/2).height($('.introbody').height());
+  } //prevent scrolling via cursor
+
+  window.setTimeout(setBounds, 500);
+
+  $(window).resize(function() {
+    setBounds();
+  });
+
+  $(document).on('mousemove', function(e){
+    console.log('cursormove');
+      $('#point').css({
+         left:  e.pageX - 150,
+         top:   e.pageY - 150
+      });
+  });
+
 
 //code for replaing text into clicked hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4$('.sub-menu>p').click(function() {
 //    $('#menutitle').text($(this).text());
